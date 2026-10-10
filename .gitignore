@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Rust / Cargo
+target/
+Cargo.lock
+
+# Archives and binaries
+*.tar.gz
+*.bin
+dist/
+bin/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS artifacts
+.DS_Store
+Thumbs.db
